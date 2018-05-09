@@ -14,7 +14,7 @@ javascript: (function() {
     var ride_id = getSelectionText();
 
     if (ride_id) {
-        window.open('https://tom.lyft.net/routes/ride' + ride_id, '_blank');
+        window.open('https://tom.lyft.net/routes/ride/' + ride_id, '_blank');
     }
 
 })()
